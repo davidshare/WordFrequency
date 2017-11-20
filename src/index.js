@@ -4,7 +4,7 @@
 const words = (sentence)=>{
   
   //check if the supplied argument is actually a string
-   if(typeof(sentence)!=='string' || sentence==='' ){
+   if(typeof(sentence)!=='string' || sentence.trim()==='' ){
     return 'Please enter a String';
   }
   
